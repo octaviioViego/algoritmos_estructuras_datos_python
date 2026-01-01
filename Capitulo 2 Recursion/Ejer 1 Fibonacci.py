@@ -12,7 +12,6 @@ def fibonacci(n):
 
 #Solicitar número 
 numero = int(input("Ingresa número: "))
-numero = numero-1
 if numero<0:
 	print(f"El número ingresado {numero} no es válido, ingrese número mayor a cero.")
 else:	
