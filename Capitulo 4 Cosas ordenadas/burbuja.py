@@ -19,7 +19,7 @@ def burbuja_mejorado(lista):
 
     while(cont < tamano_lista and bandera):
         bandera = False
-        for i in range(tamano_lista):
+        for i in range(tamano_lista - cont):
             if lista[i] > lista[i+1]:
                 lista[i] , lista[i+1] = lista[i+1] , lista[i]
                 print("Se metio a la comparación.")
